@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Chat.css"
+import "./Chat1.css";
 import ChatHeader from "./ChatHeader";
 function Chat(props) {
     return (

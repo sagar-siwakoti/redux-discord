@@ -23,7 +23,7 @@ function ChatHeader(props) {
             <input placeholder="Search"/>
             <SearchRoundedIcon />
         </div>
-          <SearchRoundedIcon />
+          <SendRoundedIcon />
           <HelpRoundedIcon />
       </div>
     </div>
