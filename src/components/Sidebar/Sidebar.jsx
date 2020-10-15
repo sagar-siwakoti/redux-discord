@@ -3,9 +3,13 @@ import "./Sidebar.css";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import AddIcon from "@material-ui/icons/Add";
 import CallIcon from '@material-ui/icons/Call';
+import MicIcon from '@material-ui/icons/Mic';
+import HeadsetIcon from '@material-ui/icons/Headset';
+import SettingsIcon from '@material-ui/icons/Settings';
 import InfoOutlinedIcon from '@material-ui/icons/InfoOutlined';
 import SignalCellularAltIcon from "@material-ui/icons/SignalCellularAlt";
 import SidebarChannel from "./SidebarChannel";
+import Avatar from "@material-ui/core/Avatar";
 
 function Sidebar(props) {
   return (
@@ -43,6 +47,18 @@ function Sidebar(props) {
               <CallIcon/>
           </div>
       </div>
+        <div className="sidebar__profile">
+            <Avatar />
+            <div className="sidebar__profileInfo">
+                <h3>Sagar Siwakoti</h3>
+                <p>#thisIsMyId</p>
+            </div>
+            <div className="sidebar__profileIcons">
+                <MicIcon/>
+                <HeadsetIcon/>
+                <SettingsIcon/>
+            </div>
+        </div>
     </div>
   );
 }
