@@ -8,11 +8,17 @@ import HeadsetIcon from '@material-ui/icons/Headset';
 import SettingsIcon from '@material-ui/icons/Settings';
 import InfoOutlinedIcon from '@material-ui/icons/InfoOutlined';
 import SignalCellularAltIcon from "@material-ui/icons/SignalCellularAlt";
+import PowerSettingsNewIcon from '@material-ui/icons/PowerSettingsNew';
 import SidebarChannel from "./SidebarChannel";
 import Avatar from "@material-ui/core/Avatar";
+import {useSelector} from "react-redux";
+import {selectUser} from "../../features/userSlice";
+import Button from "@material-ui/core/Button";
 
 function Sidebar(props) {
-  return (
+    const user = useSelector(selectUser);
+
+    return (
     <div className="sidebar">
       <div className="sidebar__top">
         <h3>Epic Dudes</h3>
@@ -48,10 +54,10 @@ function Sidebar(props) {
           </div>
       </div>
         <div className="sidebar__profile">
-            <Avatar />
+            <Avatar src={user.photo}/>
             <div className="sidebar__profileInfo">
-                <h3>Sagar Siwakoti</h3>
-                <p>#thisIsMyId</p>
+                <h3>{user.displayName}</h3>
+                <p>#{user.uid.substr(0,5)}</p>
             </div>
             <div className="sidebar__profileIcons">
                 <MicIcon/>
@@ -59,6 +65,9 @@ function Sidebar(props) {
                 <SettingsIcon/>
             </div>
         </div>
+            <div className="sidebar__logout">
+                <Button>LOGOUT<PowerSettingsNewIcon/></Button>
+            </div>
     </div>
   );
 }
