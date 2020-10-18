@@ -15,7 +15,7 @@ function Login(props) {
           alt="logo"
         />
       </div>
-      <Button onClick={signIn}>Sign In</Button>
+      <Button onClick={signIn}>Sign In with Google</Button>
     </div>
   );
 }
