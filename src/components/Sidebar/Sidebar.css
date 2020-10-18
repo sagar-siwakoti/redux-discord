@@ -73,12 +73,13 @@
   padding: 10px;
 }
 .sidebar__logout {
-  padding: 20px;
+  padding: 10px;
+
 }
 
 .sidebar__logout > button {
   padding: 10px;
-    border-radius: 20px;
+  border-radius: 20px;
   width: 150px;
   justify-content: space-around;
   background-color: #738adb;
@@ -88,5 +89,5 @@
 }
 .sidebar__logout > button:hover {
   color: white;
-  background-color: #8EA1E1;
+  background-color: #8ea1e1;
 }
