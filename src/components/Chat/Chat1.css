@@ -27,7 +27,9 @@
 }
 .chat__input>form{
     flex: 1;
+
 }
+
 .chat__inputButton{
     display: none;
 }
@@ -36,4 +38,10 @@
 }
 .chat__messages{
     flex: 1;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width:none;
+}
+.chat__messages::-webkit-scrollbar{
+    display: none;
 }
