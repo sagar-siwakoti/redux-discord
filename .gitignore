@@ -24,5 +24,8 @@ yarn-error.log*
 
 #IntelliJ
 .idea
+
 #project stuff
 firebase.js
+firebase.json
+.firebaserc
