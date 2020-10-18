@@ -47,9 +47,11 @@ function Chat(props) {
     <div className="chat">
       <ChatHeader channelName={channelName} />
       <div className="chat__messages">
-        <Message />
-        <Message />
-        <Message />
+          {messages.map((message)=>(
+        <Message message={message.message} timestamp={message.timestamp} user={message.user}/>
+
+          ))}
+
       </div>
       <div className="chat__input">
         <AddCircleIcon fontSize="large" />
@@ -61,9 +63,7 @@ function Chat(props) {
             onChange={(e) => setInput(e.target.value)}
             placeholder={`Message #${channelName}`}
           />
-          <button className="chat__inputButton" type="submit">
-            Send Message
-          </button>
+            <button className='chat__inputButton' onClick={sendMessage} disabled={!channelId} type='submit'>Send Message</button>
         </form>
         <div className="chat__inputIcons">
           <CardGiftcardIcon fontSize="large" />
