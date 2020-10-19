@@ -8,6 +8,6 @@
   <img src="https://img.shields.io/badge/Language-JavaScript-f0db4f.svg" />
     <img src="https://img.shields.io/badge/State_Management-REDUX-orange.svg" />
 </p>
-<p><b>Live DEMO=></b> <a href="https://discord-clone-6c4b2.web.app/">HERE</a></p>
+<p><b>Check out Live DEMO=></b> <a href="https://discord-clone-6c4b2.web.app/">HERE</a></p>
 <h3>App preview:</h3>
 <img src="src/assets/Screenshot_13.png" alt="preview" height="350" />
