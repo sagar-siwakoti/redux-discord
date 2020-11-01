@@ -1,6 +1,6 @@
 ## Discord Clone /w Redux
 <h3>Description:</h3>
-Clone of web version of Discord build using ReactJS and ReduxJS.<br/><br/>
+Clone of web version of Discord build using ReactJS and ReduxJS library.<br/><br/>
 <p>
     <img src="https://img.shields.io/badge/Platform-Web-brightgreen.svg" />
   <img src="https://img.shields.io/badge/Application-DiscordWEB-green.svg" />
