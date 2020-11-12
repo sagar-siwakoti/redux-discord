@@ -12,6 +12,12 @@ Clone of web version of Discord that build using ReactJS and ReduxJS library.<br
     <img src="https://img.shields.io/badge/Hosting-Firebase_Hosting-black.svg" />
 
 </p>
+<h3>Features:</h3>
+<p>
+-User authentication.<br/>
+-Anonymous signIn.<br/>
+-Add and Update data to firestore.<br/>
+</p>
 <p><b>Check out Live DEMO=></b> <a href="https://discord-clone-6c4b2.web.app/">HERE</a></p>
 <h3>App preview:</h3>
 <img src="src/assets/Screenshot_13.png" alt="preview" height="350" />
