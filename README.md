@@ -14,9 +14,10 @@ Clone of web version of Discord that build using ReactJS and ReduxJS library.<br
 </p>
 <h3>Features:</h3>
 <p>
--User authentication.<br/>
--Anonymous signIn.<br/>
--Add and Update data to firestore.<br/>
+-User authentication(Uisng google auth).<br/>
+-Log Out using firebase.<br/>
+-Chat with other users.<br/>
+-Create chat room.<br/>
 </p>
 <p><b>Check out Live DEMO=></b> <a href="https://discord-clone-6c4b2.web.app/">HERE</a></p>
 <h3>App preview:</h3>
